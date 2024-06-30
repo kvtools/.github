@@ -1,12 +1,12 @@
-name: Bug Report
-description: "Create a report to help us improve."
+name: 🐞 Bug Report
+description: Create a report to help us improve.
 body:
   - type: checkboxes
     id: terms
     attributes:
       label: Welcome
       options:
-        - label: Yes, I've searched similar issues on GitHub and didn't find any.
+        - label: Yes, I've searched for similar issues on GitHub and found none.
           required: true
         - label: Yes, I've included all information below (version, config, etc).
           required: true
@@ -42,7 +42,7 @@ body:
 
         ```console
         $ go version && go env
-        # paste output here
+        # Paste output here
         ```
 
         </details>
@@ -57,7 +57,7 @@ body:
         <details>
 
         ```go
-        // add your code here
+        //Add your code here
         ```
 
         </details>
